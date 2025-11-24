@@ -38,13 +38,6 @@ if st.session_state['name']:
     st.write(f"**이름:** {st.session_state['name']}")
     st.write(f"**나이:** {st.session_state['age']}")
     st.write(f"**좋아하는 색상:** {st.session_state['color']}")
-
-    if st.session_state['agree']:
-        st.success("이용 약관에 **동의**하셨습니다.")
-    else:
-        st.warning("이용 약관에 아직 **동의하지 않으셨습니다.**")
-else:
-    st.info("위의 Task 01에서 정보를 입력하고 **제출** 버튼을 눌러 주세요.")
 # Task 03
 st.title("Task 03")
 
